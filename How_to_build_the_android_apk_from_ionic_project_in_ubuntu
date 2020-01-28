@@ -1,0 +1,11 @@
+Firstly, if we need to build the Android apk from ionic project in ubuntu need to follow further steps :
+
+1.   >     To install Node in Ubuntu in Command Line(Terminal)    <
+
+      1.1   > sudo apt-get install nodejs
+          After 1.1 is done then check or make sure you must installed the latest vesion of node according to you.
+          
+      1.2   > nodejs -v 
+          If it shows the version ofn ode then it is installed ! .where -v stands for version.
+          
+          
