@@ -1,5 +1,9 @@
 Firstly, if we need to build the Android apk from ionic project in ubuntu need to follow further steps :
 
+     -> sudo command : is used to give you the access of the root in Ubuntu. Some of the commands willnot work without sudo, so if 
+                       any command is not working without sudo then use sudo infront of it or viceversa.
+                        
+
 1.   >     To install Node in Ubuntu in Command Line(Terminal)    <
 
       1.1   > sudo apt-get install nodejs
