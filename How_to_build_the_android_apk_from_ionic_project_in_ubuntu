@@ -80,4 +80,18 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
                make sure you are in the same folder in wich the downloaded file is.(by using cd command)
                where jdk-8u241-linux-x64.tar.gz is the name of the file.(Enter the correct name of the file)
                where /home/tecdune-20/Downloads/Java is the path where you wan to extract this file.
+               
+ 6.   >  >  >   To install $JAVA_HOME variable in Ubuntu in Command Line(Terminal)    <  <  <
+ 
+          How to open etc file ?
+        > cd /etc
+          
+          Then open,
+        > nano environment
+          
+          Now set the path in $JAVA_HOME variable 
+        > JAVA_HOME=/home/tecdune-20/Downloads/Java/jdk1.8.0_241
+          (where /home/tecdune-20/Downloads/Java/jdk1.8.0_241 is the path , you have to give the path where your 
+               file is stored in the system).
+          
 
