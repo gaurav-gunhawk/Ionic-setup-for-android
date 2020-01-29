@@ -67,6 +67,17 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
             Output > 5.4.15  (To check the version of ionic)
 
           
-
-
+ 5.   >  >  >   To install Java8 in Ubuntu in Command Line(Terminal)    <  <  <
+               (Donot install openjdk because its not stable or you can do it as your wish.)
+       
+      5.1   > Visit official site of Oracle and Accept the License and download Jdk.
+               "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
+               Create an account on Orcale and then it will make you downlaod.
+               Downlaod tar.gz file.
+               
+      5.2   > sudo tar xvf jdk-8u241-linux-x64.tar.gz --directory /home/tecdune-20/Downloads/Java
+      
+               make sure you are in the same folder in wich the downloaded file is.(by using cd command)
+               where jdk-8u241-linux-x64.tar.gz is the name of the file.(Enter the correct name of the file)
+               where /home/tecdune-20/Downloads/Java is the path where you wan to extract this file.
 
