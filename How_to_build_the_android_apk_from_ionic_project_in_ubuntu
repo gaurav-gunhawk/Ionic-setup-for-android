@@ -4,7 +4,7 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
                        sudo, so if any command is not working without sudo then use sudo infront of it or viceversa.
                         
 
-1.   >  >  >   To install Node , npm in Ubuntu in Command Line(Terminal)    <
+1.   >  >  >   To install Node , npm in Ubuntu in Command Line(Terminal)    <  <  <
 
       1.1   > sudo apt-get install curl
       
@@ -26,3 +26,14 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
       1.5   > npm -v
       
             Output > 6.13.1
+            
+            
+ 2.   >  >  >   To install Angular ClI in Ubuntu in Command Line(Terminal)    <  <  <
+
+      2.1   > sudo npm install -g @angular/cli
+      
+            Will install Andular Cli and don't forget to use sudo infront of it , without sudo it will not work.
+      
+      2.2   > ng --version
+              This command wil show the verison of your Angular Cli
+         
