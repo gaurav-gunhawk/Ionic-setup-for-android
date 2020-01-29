@@ -46,3 +46,27 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
       3.2   > sudo dpkg -i name_of_the_file
       
             Go to the folder in which the downloaded file is by using "cd" command and then use 3.2 command.
+            
+            
+ 4.   >  >  >   To install Cordova , Ionic in Ubuntu in Command Line(Terminal)    <  <  <
+ 
+      4.1   > sudo npm install -g cordova
+           
+            Use this command with or without sudo. 
+            
+      4.2   > sudo npm install -g ionic
+            
+            This will install ionic on your system.
+            
+      4.3   > cordova -v
+      
+            Output > 9.0.0 (To check the version of cordova)
+            
+      4.4   > ionic -v
+      
+            Output > 5.4.15  (To check the version of ionic)
+
+          
+
+
+
