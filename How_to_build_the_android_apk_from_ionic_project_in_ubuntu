@@ -83,15 +83,23 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
                
  6.   >  >  >   To install $JAVA_HOME variable in Ubuntu in Command Line(Terminal)    <  <  <
  
-          How to open etc file ?
-        > cd /etc
+              How to open etc file ?
+      6.1   > cd /etc
           
-          Then open,
-        > nano environment
+              Then open,
+      6.2   > nano environment
           
-          Now set the path in $JAVA_HOME variable 
-        > JAVA_HOME=/home/tecdune-20/Downloads/Java/jdk1.8.0_241
-          (where /home/tecdune-20/Downloads/Java/jdk1.8.0_241 is the path , you have to give the path where your 
+              Now set the path in $JAVA_HOME variable 
+      6.3   > JAVA_HOME=/home/tecdune-20/Downloads/Java/jdk1.8.0_241
+              (where /home/tecdune-20/Downloads/Java/jdk1.8.0_241 is the path , you have to give the path where your 
                file is stored in the system).
+               
+              Now save the file with Ctrl+x.
+          
+      6.4   > source environmnet
+          (very important command without this changes will not occur)
+          
+      6.5   > echo $JAVA_HOME
+          (if it displays you the path which you have stored then your JAVA_HOME variable is set.) 
           
 
