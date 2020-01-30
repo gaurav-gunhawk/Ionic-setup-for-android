@@ -87,7 +87,7 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
       6.1   > cd /etc
           
               Then open,
-      6.2   > nano environment
+      6.2   > sudo nano environment
           
               Now set the path in $JAVA_HOME variable 
       6.3   > JAVA_HOME=/home/tecdune-20/Downloads/Java/jdk1.8.0_241
@@ -107,7 +107,7 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
               (where "/usr/bin/java" is he path where th efile will be installed.)
               
               
-          https://www.javahelps.com/2015/03/install-oracle-jdk-in-ubuntu.html
+         Follow this : -> https://www.javahelps.com/2015/03/install-oracle-jdk-in-ubuntu.html
           
           
   7.   >  >  >   To install Android Studio in Ubuntu in Command Line(Terminal)    <  <  <
@@ -124,4 +124,6 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
   
           
         
+  9.   >  >  >   To download Gradle in Ubuntu in Command Line(Terminal)    <  <  <
 
+             Downlaod the latest gradle version from official website of Gradle.
