@@ -127,3 +127,11 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
   9.   >  >  >   To download Gradle in Ubuntu in Command Line(Terminal)    <  <  <
 
              Downlaod the latest gradle version from official website of Gradle.
+             Unzip that Gradle in the particular location.
+          
+       9.1   > export PATH=$PATH:/opt/gradle/gradle-3.4.1/bin
+               (where "/opt/gradle/gradle-3.4.1/bin" replace it with the path of your filw which your have extracted.)
+               
+       9.2   > gradle -v
+               (Check it is installed or not.)
+             
