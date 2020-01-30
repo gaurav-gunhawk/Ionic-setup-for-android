@@ -97,10 +97,10 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
               Now save the file with Ctrl+x.
           
       6.4   > source environmnet
-          (very important command without this changes will not occur)
+              (very important command without this changes will not occur)
           
       6.5   > echo $JAVA_HOME
-          (if it displays you the path which you have stored then your JAVA_HOME variable is set.) 
+              (if it displays you the path which you have stored then your JAVA_HOME variable is set.) 
           
       6.6   > sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_231/bin/java" 100
               (where "/usr/lib/jvm/jdk1.8.0_231/bin/java" is the path from where the file will be taken.)
@@ -108,4 +108,20 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
               
               
           https://www.javahelps.com/2015/03/install-oracle-jdk-in-ubuntu.html
+          
+          
+  7.   >  >  >   To install Android Studio in Ubuntu in Command Line(Terminal)    <  <  <
+             
+            I suggest you to download full Android Studio rather than downloading only SDK Manager beacuse it will 
+            create alot of mess in downloading only SDK Manager.
+            
+            Then ,
+            Go to , Tools -> SDK Manager
+            Then download the SDK versions according to you.
+            
+            
+  8.   >  >  >   To set ANDROID_SDK_ROOT in Ubuntu in Command Line(Terminal)    <  <  <
+  
+          
+        
 
