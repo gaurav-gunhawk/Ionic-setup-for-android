@@ -102,4 +102,8 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
       6.5   > echo $JAVA_HOME
           (if it displays you the path which you have stored then your JAVA_HOME variable is set.) 
           
+      6.6   > sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_231/bin/java" 100
+              (where "/usr/lib/jvm/jdk1.8.0_231/bin/java" is the path from where the file will be taken.)
+              (where "/usr/bin/java" is he path where th efile will be installed.)
+          
 
