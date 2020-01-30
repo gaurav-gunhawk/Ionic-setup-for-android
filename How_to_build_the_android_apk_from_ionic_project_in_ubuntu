@@ -122,6 +122,18 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
             
   8.   >  >  >   To set ANDROID_SDK_ROOT in Ubuntu in Command Line(Terminal)    <  <  <
   
+       8.1   >  cd /etc
+       
+       8.2   > sudo nano ~/.bashrc
+       
+               Then, 
+               Go Down at last of the file.
+               
+               ANDROID_SDK_ROOT="/home/tecdune-20/Android/Sdk"
+               PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin
+               PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
+               where("/home/tecdune-20/Android/Sdk" is the path where your SDK is int he system.)
           
         
   9.   >  >  >   To download Gradle in Ubuntu in Command Line(Terminal)    <  <  <
