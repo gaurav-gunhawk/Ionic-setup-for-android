@@ -146,4 +146,9 @@ Firstly, if we need to build the Android apk from ionic project in ubuntu need t
                
        9.2   > gradle -v
                (Check it is installed or not.)
+               
+               
+  10.   >  >  >   To Build your ionic Application in Ubuntu in Command Line(Terminal)    <  <  <
+  
+            
              
